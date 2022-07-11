@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
 public class Ifelse {
+	private static Scanner entrada;
+
 	public static void main(String[] args)
 	{
-		Scanner entrada = new Scanner(System.in);
+	
+		entrada = new Scanner(System.in);
 		double livroLinux;
 		double livroJava;
 		
@@ -18,7 +21,7 @@ public class Ifelse {
 		
 		if(livroLinux == 10) 
 	    {  
-			System.out.println("O livro linux 1ta quase de graça KKKKK compra ai");
+			System.out.println("O livro linux ta quase de graça KKKKK compra ai");
 	    }
 		
 		if(total <= 100)

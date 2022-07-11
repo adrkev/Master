@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class Calculo {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) 
 	{
 	Operacoes o = new Operacoes();
 	
-	Scanner scan = new Scanner(System.in);
+	scan = new Scanner(System.in);
 	int v1, v2;
 	int soma, mult, sub;
 	double div;
@@ -25,7 +27,7 @@ public class Calculo {
 	 System.out.println("A subtração é: " + sub);
 	 System.out.println("A divisão é: " + div);
 	 
-	   //  o .soma(70, 80);
+	     o .soma(70, 80);
 	//     o .vezes(5, 8);
 	//    o .divisao(10, 2);
 //	     o .subtrair(10, 5);

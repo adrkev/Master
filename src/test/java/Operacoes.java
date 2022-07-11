@@ -1,6 +1,6 @@
 
 public class Operacoes {
-	
+	public static void main(String[] args) {}
 	public void soma (int n1, int n2) 
 	{
 		int soma = n1 + n2;
@@ -25,5 +25,7 @@ public class Operacoes {
 		System.out.println("subtração: ");
 		System.out.println(subtrair);
 	}
-}
+	}
+
+
 
